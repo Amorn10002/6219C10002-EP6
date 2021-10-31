@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAVA SC</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <style>
+        h1 {
+            text-align: center;
+            color: red;
+        }
+
+        td {
+            padding: 10px;
+        }
+
+        table {
+            margin: auto;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1 style="text-decoration: underline;">Learn JS 08</h1>
+    <h2 style="text-decoration: center;">ผลการเรียน</h2>
+    <table width="500" border="1">
+        <tr>
+            <td width="150" style="text-align: right;">
+                คะแนนกลางภาค
+            </td>
+            <td>
+                <input type="text" name="" id="tx_midterm"> คะแนน
+            </td>
+        </tr>
+        <tr>
+            <td width="150" style="text-align: right;">
+                คะแนนปลายภาค
+            </td>
+            <td>
+                <input type="text" name="" id="tx_final"> คะแนน
+            </td>
+        </tr>
+        <tr>
+             <td width="150" style="text-align: right;">
+                คะแนนเก็บ
+            </td>
+            <td>
+                <input type="text" name="" id="tx_quiz"> คะแนน
+            </td>
+        </tr>
+        
+        <tr>
+            <td width="150" style="text-align: right;"></td>
+            <td>
+                <button>คำนวณ</button>
+                <button>ยกเลิก</button>
+            </td>
+        </tr>
+        <tr>
+            <td width="150" style="text-align: right;">
+            คะแนนรวม
+            </td>
+            <td>
+                <span id="show_sum_score">
+                    0
+                </span>
+            </td>
+        </tr>
+        <tr>
+            <td width="150" style="text-align: right;">
+            เกรดที่ได้
+            </td>
+            <td>
+                <span id="show_grade">
+                    ?
+                </span>
+            </td>
+        </tr>
+    </table>
+    <br><br>
+    <div style="text-align: center;">
+        หารกันคนละ
+        <span id="show_result">
+            0.00
+        </span>
+    </div>
+    <script src="./js/testscript8.js"></script>
+</body>
+
+</html>
